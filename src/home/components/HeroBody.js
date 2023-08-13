@@ -9,7 +9,9 @@ const HeroBody = () => {
     <div className="p-tag">
       <p>No matter where you’re <br></br>going to, we’ll take you <br></br>there</p>
     </div>
-    <div className="rectangle2"></div>
+    <div className="rectangle2">
+      
+    </div>
     <div className="elipses-people">
       <div className="elipses"></div>
       <div className="noOfPeople"></div>
