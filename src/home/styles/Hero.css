@@ -1,0 +1,12 @@
+.hero{
+  height: 90%;
+}
+.hero-bg-image{
+  background-image: url('../../assets/images/hero-background-image2.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 840px;
+  flex-shrink: 0;
+  color: lightgray (50%);
+  filter: brightness(80%);
+}

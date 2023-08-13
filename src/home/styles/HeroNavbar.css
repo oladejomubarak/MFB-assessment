@@ -1,0 +1,113 @@
+.navbar {
+  display: flex;
+  justify-content:space-between;
+}
+.nav-section-one {
+  display: flex;
+  flex-direction: column;
+  margin-left: 170px;
+  margin-top: 36.6px;
+}
+.travel h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Volkhov;
+  font-size: 31.622px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+
+  width: 122.215px;
+  height: 35.555px;
+  flex-shrink: 0;
+}
+.arrow {
+  margin-left: 35px;
+  margin-top: -10px;
+}
+.arrow img {
+  width: 116.765px;
+  height: 20.49px;
+  flex-shrink: 0;
+}
+.nav-section-two {
+  margin-top: 49.61px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-section-two p {
+  color: #fff;
+  font-family: Circular Std;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+.active-indicator {
+  border-radius: 34px;
+  background: #df6951;
+  width: 36.665px;
+  height: 2.602px;
+  flex-shrink: 0;
+}
+.uc-packages {
+  margin-left: 61.11px;
+}
+.services {
+  margin-left: 61.11px;
+  display: flex;
+  flex-direction: row;
+}
+.services .vector {
+  width: 14.171px;
+  height: 6.488px;
+  flex-shrink: 0;
+  fill: #fff;
+}
+.services .vector-union {
+  margin-left: 10.19px;
+  margin-top: -2px;
+}
+.union {
+  background-image: url("../../assets/images/Union.png");
+  fill: rgba(217, 217, 217, 0.58);
+  /* background-size: cover; */
+
+  width: 229px;
+  height: 188px;
+  flex-shrink: 0;
+  position: absolute;
+  z-index: 100;
+  right: 567px;
+}
+.about {
+  margin-left: 61.11px;
+}
+.nav-section-three {
+  margin-top: 24.5px;
+  margin-right: 168.09px;
+}
+.nav-section-three {
+  background-image: url("../../assets/images/Rectangle\ 12.svg");
+  /* width: 185.767px;
+height: 50.298px; */
+  background-size: cover;
+
+  flex-shrink: 0;
+  fill: #df6951;
+  filter: drop-shadow(0px 20px 35px rgba(223, 105, 81, 0.15));
+}
+.nav-section-three h1 {
+  color: #fff;
+  font-family: Circular Std;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 120.993px;
+  height: 19.078px;
+  flex-shrink: 0;
+  margin: 22.61px 31.78px 0px 63px;
+}
