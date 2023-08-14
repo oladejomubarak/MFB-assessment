@@ -24,11 +24,14 @@ line-height: 55px;
 }
 .rectangle2{
 margin-top: -40px;
-width: 1031.496px;
-height: 88.455px;
+width: 769.496px;
+height: 68.455px;
 flex-shrink: 0;
 border-radius: 5.224px;
 background: rgba(243, 243, 243, 0.60);
 backdrop-filter: blur(17.760618209838867px);
+display: flex;
+justify-content: center;
+text-align: center;
 }
 
