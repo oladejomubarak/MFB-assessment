@@ -31,7 +31,70 @@ border-radius: 5.224px;
 background: rgba(243, 243, 243, 0.60);
 backdrop-filter: blur(17.760618209838867px);
 display: flex;
-justify-content: center;
-text-align: center;
+justify-content: space-between;
+align-items: center;
 }
+.rectangle2 p{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18.805px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.rectangle2 .whereTo{
+  margin-left: 40.33px;
+}
+.rectangle2 .vertical-rectangle{
+  width: 3.666px;
+height: 41.626px;
+flex-shrink: 0;
+border-radius: 25px;
+background: #D0D0D0;
+}
+.rectangle2 .vec{
+  width: 18.666px;
+  height: 8.203px;
+  flex-shrink: 0;
+  stroke-width: 2px;
+  stroke: #FFF;
+}
+.rectangle2 button {
+  display: flex;
+  width: 215.785px;
+  padding: 12px 0px 11.924px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #DF6951;
+  box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+  border-style: none;
+  height: 38.55px;
+  margin-right: 33.53px;
 
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16.716px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.elipses-people{
+  margin-top:24.5px ;
+  display: flex;
+  align-items: center;
+}
+.elipse{
+  margin-left: -18px;
+}
+.elipse-content{
+  color: #FFF;
+font-family: Poppins;
+font-size: 12.537px;
+font-style: normal;
+font-weight: 500;
+line-height: 37.611px; /* 300% */
+position: absolute;
+
+}
