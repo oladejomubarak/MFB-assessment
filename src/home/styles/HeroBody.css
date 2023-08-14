@@ -11,8 +11,8 @@ stroke-width: 5.224px;
 stroke: #DF6951;
 }
 .p-tag p{
-width: 555.178px;
-height: 235.879px;
+/* width: 555.178px;
+height: 235.879px; */
 flex-shrink: 0;
 color: #FFF;
 font-family: Poppins;
@@ -23,7 +23,7 @@ line-height: 67.908px; /* 116.071% */
 line-height: 55px;
 }
 .rectangle2{
-margin-top: -40px;
+margin-top: 45px;
 width: 769.496px;
 height: 68.455px;
 flex-shrink: 0;
@@ -126,8 +126,10 @@ font-weight: 500;
 line-height: 37.611px; /* 300% */
 }
 .ellipse-circle{
-  margin-left: -130px;
-  margin-top: -40px;
+  margin-left: -155px;
+  margin-top: -92.5px;
+  height: 406.12px;
+  width: 392px;
 }
 .outer-circle{
 width: 392px;
@@ -137,17 +139,28 @@ flex-shrink: 0;
 border-radius: 392px;
 border: 1px dashed #FFF;
 padding: 25%;
+position: relative;
 }
 .inner-circle{
   width: 162px;
   height: 162px;
   flex-shrink: 0;
+  border-radius: 392px;
+  border: 1px dashed #FFF;
+  position: relative;
+  margin-top: 20px;
 
-  stroke-width: 1px;
-  stroke: #FFF;
+  /* stroke-width: 1px;
+  stroke: #FFF; */
 
   padding: 25%;
 }
 .ellipse-circle p{
-
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
