@@ -81,20 +81,73 @@ background: #D0D0D0;
   line-height: normal;
 }
 .elipses-people{
-  margin-top:24.5px ;
+  margin-top:47.5px ;
   display: flex;
   align-items: center;
 }
 .elipse{
   margin-left: -18px;
 }
-.elipse-content{
+.elip{
+  margin-left: -18px;
+  width: 43.994px;
+height: 31.217px;
+flex-shrink: 0;
+background-color: #DF6951;
+border-radius: 50%;
+border-color: #FFF;
+border-style: solid;
+align-items: center;
+
+/* fill: #DF6951;
+stroke-width: 2.089px;
+stroke: var(--white, #FFF); */
+}
+.elip-content{
+  color: #FFF;
+font-family: Poppins;
+font-size: 12.537px;
+font-style:normal;
+font-weight: 500;
+line-height: 37.611px; /* 300% */
+position: relative;
+margin-top: -15%;
+margin-left: 38%;
+}
+.noOfPeople{
+  margin-left: 22px;
+}
+.noOfPeople p{
   color: #FFF;
 font-family: Poppins;
 font-size: 12.537px;
 font-style: normal;
 font-weight: 500;
 line-height: 37.611px; /* 300% */
-position: absolute;
+}
+.ellipse-circle{
+  margin-left: -130px;
+  margin-top: -40px;
+}
+.outer-circle{
+width: 392px;
+height: 392px;
+flex-shrink: 0;
+
+border-radius: 392px;
+border: 1px dashed #FFF;
+padding: 25%;
+}
+.inner-circle{
+  width: 162px;
+  height: 162px;
+  flex-shrink: 0;
+
+  stroke-width: 1px;
+  stroke: #FFF;
+
+  padding: 25%;
+}
+.ellipse-circle p{
 
 }

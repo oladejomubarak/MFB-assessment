@@ -37,14 +37,21 @@ const HeroBody = () => {
         <img className="elipse" src={Elip4}/>
         <img className="elipse" src={Elip5}/>
         <img className="elipse" src={Elip6}/>
-        <img className="elipse" src={Elip7}/>
-        <p className="elipse-content">+</p>
-      </div>
+        </div>
+        <div className="elip">
+        <p className="elip-content">+</p>
+        </div>
       <div className="noOfPeople">
         <p>2,500 people booked Tommorowland Event in last 24 hours</p>
       </div>
     </div>
-
+    <div className="ellipse-circle">
+      <div className="outer-circle">
+        <div className="inner-circle">
+          <p>Scroll</p>
+        </div>
+      </div>
+    </div>
 
   </div>);
 }
