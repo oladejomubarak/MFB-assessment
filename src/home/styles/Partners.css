@@ -6,4 +6,38 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position:relative;
+  padding: 0px 171.15px 0px 171px;
+  background: #F7F7F7;
+
+height: 185px;
+  
+}
+.partners .partner1-pic{
+  width: 143.385px;
+  height: 50px;
+  flex-shrink: 0;
+  opacity: 0.44;
+}
+.partners .partner2-pic{
+  width: 165px;
+  height: 50px;
+  flex-shrink: 0;
+}
+.partners .partner3-pic{
+  width: 160.465px;
+  height: 50px;
+  flex-shrink: 0;
+}
+.partners .partner4-pic{
+  width: 172px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.partners .partner5-pic{
+  width: 221px;
+  height: 50px;
+  flex-shrink: 0;
+  opacity: 0.44;
 }
