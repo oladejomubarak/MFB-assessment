@@ -6,8 +6,13 @@
   margin-top:150px;
   margin-left: 150px;
   display: flex;
+  flex-direction: column;
   overflow: hidden;
 
+}
+.home-four .home-four1{
+  display: flex;
+  /* min-width: 660px;   */
 }
 .home-four11 .fast-easy{
   color: #DF6951;
@@ -17,6 +22,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+margin-top: 50px;
 }
 .home-four11 .resort-booking{
   color: #181E4B;
@@ -57,4 +63,73 @@ max-width: 450px;
   font-style: normal;
   font-weight: 400;
   line-height: 124.5%; /* 19.92px */
+}
+.home-four12{
+  display: flex;
+  margin-left: 100px;
+
+}
+.home-four12 .div111{
+  margin-top:70px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  padding: 5%;
+  border-radius: 26px;
+  background: var(--white, #FFF);
+  box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+  /* height: 400px;
+  width: 370px; */
+}
+.div222{
+  display: flex;
+  flex-direction: column;
+}
+.div222-1{
+  z-index: 0;
+  /* height: 385px;
+  width: 692px; */
+}
+.div222-2{
+  display: flex;
+  /* height: 129px;
+  width: 263px; */
+}
+.rec-div .rec-17{
+  width: 321px;
+height: 161px;
+flex-shrink: 0;
+
+border-radius: 26px;
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+.home-four2{
+
+}
+.home-four2 .crosses{
+  display: flex;
+  z-index: 0;
+}
+.crosses-batch p{
+  margin-left: 12px;
+}
+
+.crosses-batch .white-cross{
+  color: #E5E5E5;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.crosses-batch .red-cross{
+  color: var(--1st, #FF7152);
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
 }
