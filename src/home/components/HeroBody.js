@@ -12,7 +12,7 @@ import Elip7 from '../../assets/images/Ellipse 37.svg';
 const HeroBody = () => {
   return (  <div className="hero-body">
     <div className="vector1">
-      <img src={Vector1}/>
+      <img src={Vector1} alt=""/>
     </div>
     <div className="p-tag">
       <p>No matter where you’re <br></br>going to, we’ll take you <br></br>there</p>
@@ -26,17 +26,17 @@ const HeroBody = () => {
 
     </div>
     <p>Duration</p>
-    <img src={Vec} className="vec"/>
+    <img src={Vec} className="vec" alt=""/>
     <button>Submit</button>
     </div>
     <div className="elipses-people">
       <div className="elipses">
-        <img className="elipsee" src={Elip1}/>
-        <img className="elipse" src={Elip2}/>
-        <img className="elipse" src={Elip3}/>
-        <img className="elipse" src={Elip4}/>
-        <img className="elipse" src={Elip5}/>
-        <img className="elipse" src={Elip6}/>
+        <img className="elipsee" src={Elip1} alt=""/>
+        <img className="elipse" src={Elip2} alt=""/>
+        <img className="elipse" src={Elip3} alt=""/>
+        <img className="elipse" src={Elip4} alt=""/>
+        <img className="elipse" src={Elip5} alt=""/>
+        <img className="elipse" src={Elip6} alt=""/>
         </div>
         <div className="elip">
         <p className="elip-content">+</p>

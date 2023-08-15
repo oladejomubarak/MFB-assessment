@@ -5,12 +5,14 @@
 .home-two{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   align-self: center;
   margin-top: 160px;
-  border-style: dotted;
-  border-color: aqua;
+  /* border-style: dotted;
+  border-color: aqua; */
+  margin-left: 263px;
+  margin-right: 333px;
 }
 .home-two-content{
   display: inline-block;
@@ -33,4 +35,105 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 text-transform: capitalize;
+margin-bottom: 50px;
+}
+.offered-services{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.offered-services .offered-service{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 165px;
+  height: 289px;
+  flex-shrink: 0;
+}
+/* .offered-service .icon1{
+  display: flex;
+  margin-bottom: 30px;
+  margin-right: 18px;
+}
+.offered-service .icon2{
+  display: flex;
+  margin-bottom: 30px;
+  margin-right: 18px;
+}
+.offered-service .icon3{
+  display: flex;
+  margin-bottom: 30px;
+  margin-right: 18px;
+} */
+.offered-service .icon{
+  display: flex;
+  margin-bottom: 30px;
+  margin-right: 18px;
+}
+.icon .tour-guide{
+width: 72px;
+height: 72px;
+flex-shrink: 0;
+position: relative;
+left: 33px;
+}
+.icon .travelling{
+  width: 72px;
+height: 72px;
+  flex-shrink: 0;
+
+position: relative;
+left: 33px;
+}
+.icon .hands{
+  width: 72px;
+height: 72px;
+  flex-shrink: 0;
+
+  position: relative;
+  left: 33px;
+}
+.icon .medical-team{
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+
+  position: relative;
+  left: 33px;
+}
+.offered-service .rectangle1{
+  width: 50px;
+  height: 49px;
+  flex-shrink: 0;
+
+  border-radius: 18px 5px 10px 5px;
+  background: #FFF1DA;
+  margin-top: 35px;
+}
+.offered-service .rectangle{
+  width: 50px;
+  height: 49px;
+  flex-shrink: 0;
+
+  border-radius: 18px 5px 10px 5px;
+  background: #FFF1DA;
+}
+.title{
+  color: var(--text-heading-color, #1E1D4C);
+text-align: center;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.description{
+  color: var(--textclr, #5E6282);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
 }
