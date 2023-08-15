@@ -5,6 +5,13 @@ import Travelling from '../../assets/images/travelling.png';
 import Hands from '../../assets/images/hands.png';
 import MedicalTeam from '../../assets/images/medical-team.png';
 const HomeTwo = () => {
+
+  const magnify = ()=>{
+    return(
+      <div className="offered-service">
+      </div>
+    )
+  }
   return (  
     <div className="home-two">
       <div className="home-two-content">
@@ -15,7 +22,7 @@ const HomeTwo = () => {
         <p>We Offer Best Services</p>
       </div>
       <div className="offered-services">
-        <div className="offered-service">
+        <div onMouseOver={magnify} className="offered-service">
           <div className="icon">
           <img className="tour-guide" src={TourGuide} alt=""/>
           <div className="rectangle1"></div>
