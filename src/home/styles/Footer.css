@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+.footer{
+  /* background-image: url(../../assets/images/Footer-img.png);
+  background-position: -0.018px -48px;
+  background-size: 154.946% 129.339%; 
+  background-repeat: no-repeat; 
+  opacity: 0.07; */
+
+
+
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer1{
+  display: flex;
+}

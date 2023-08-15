@@ -7,6 +7,7 @@ import Rectangle17 from '../../assets/images/Rectangle 17.png';
 import Leaf from '../../assets/images/leaf 1.svg';
 import Map1 from '../../assets/images/map 1.svg';
 import Send2 from '../../assets/images/send 2.svg';
+import Building from '../../assets/images/building 1.svg';
 import Image32 from '../../assets/images/image 32.png';
 import Airoplane from '../../assets/images/airoplane.png';
 import Group3 from '../../assets/images/Group 3.svg';
@@ -46,43 +47,53 @@ const HomeFour = () => {
         <div className="div111">
           <div className="rec-div"><img className="rec-17" src={Rectangle17} alt="" /></div>
           <div className="rec-info">
-            <p>Trip to Hawaii </p>
-            <p>14-29 June | by JR Martinax </p>
-            <div mls-divs>
-              <div className="mls-div"> <img className="mls"/></div>
-              <div className="mls-div"> <img className="mls"/></div>
-              <div className="mls-div"> <img className="mls"/></div>
+            <p className="trip">Trip to Hawaii </p>
+            <p className="june">14-29 June | by JR Martinax </p>
+            <div className="mls-divs">
+              <div className="mls-div"> <img className="mls" src={Map1} alt=""/></div>
+              <div className="mls-div"> <img className="mls" src={Leaf} alt=""/></div>
+              <div className="mls-div"> <img className="mls" src={Send2} alt="" /></div>
             </div>
             <div className="building-heart-div">
-              <img />
-              <p></p>
-              <img />
+              <img className="building" src={Building} alt=""/>
+              <p className="building-heart-ptag">60 people are interested</p>
+              <img className="heart" src={Heart} alt=""/>
             </div>
-            <div></div>
           </div>
         </div>
         <div className="div222">
-          <div className="div222-1"></div>
-          <div className="div222-2"></div>
+          <div className="div222-1">
+            <img className="airoplane" src={Airoplane} alt="" />
+          </div>
+          <div className="div222-2">
+            <div className="image32-div"><img className="image32" src={Image32} alt=""/></div>
+            <div className="div222-2-info">
+                 <p className="ongoing">Ongoing</p>
+                 <p className="trip-to-rome">Trip to rome</p>
+                 <p className="forty"><span className="forty-percent">40%</span>completed</p>
+                 <img className="group-333" src={Group3} alt=""/>
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <div className="home-four2">
     <div className="crosses">
     <div className="crosses-batch">
-        <p className="white-cross">+</p><p className="white-cross">+</p><p className="white-cross">+</p><p className="white-cross">+</p><p className="red-cross">+</p>
+        <p className="red-cross">+</p><p className="white-cross">+</p><p className="white-cross">+</p><p className="white-cross">+</p><p className="white-cross">+</p>
         </div>
         <div className="crosses-batch">
         <p className="white-cross">+</p><p className="white-cross">+</p><p className="white-cross">+</p><p className="white-cross">+</p><p className="white-cross">+</p>
         </div>
         <div className="crosses-batch">
-        <p className="white-cross">+</p><p className="white-cross">+</p><p className="blue-cross">+</p><p className="white-cross">+</p><p className="white-cross">+</p>
+        <p className="white-cross">+</p><p className="white-cross">+</p><p className="white-cross">+</p><p className="white-cross">+</p><p className="red-cross">+</p>
         </div>
         <div className="crosses-batch">
-        <p className="white-cross">+</p><p className="red-cross">+</p><p className="white-cross">+</p><p className="white-cross">+</p><p className="white-cross">+</p>
+        <p className="white-cross">+</p><p className="white-cross">+</p><p className="white-cross">+</p><p className="red-cross">+</p><p className="white-cross">+</p>
         </div>
         <div className="crosses-batch">
-        <p className="white-cros">+</p><p className="white-cross">+</p><p className="red-cross">+</p><p className="white-cross">+</p><p className="white-cross">+</p>
+        <p className="white-cros">+</p><p className="white-cross">+</p><p className="white-cross">+</p><p className="white-cross">+</p><p className="white-cross">+</p>
         </div>       
 
     </div>

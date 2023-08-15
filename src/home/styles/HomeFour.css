@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 .home-four{
-  margin-top:150px;
+  margin-top: 50px;
   margin-left: 150px;
   display: flex;
   flex-direction: column;
@@ -66,7 +66,7 @@ max-width: 450px;
 }
 .home-four12{
   display: flex;
-  margin-left: 100px;
+  margin-left: 160px;
 
 }
 .home-four12 .div111{
@@ -86,15 +86,71 @@ max-width: 450px;
   display: flex;
   flex-direction: column;
 }
-.div222-1{
+.div222 .div222-1{
   z-index: 0;
+  position: absolute;
+  right: 5px;
+  margin-top: -70px;
   /* height: 385px;
   width: 692px; */
 }
 .div222-2{
   display: flex;
+  position: relative;
+  margin-top: 267px;
+  right: 165px;
+  z-index: 2;
+  padding: 5%;
+  border-radius: 18px;
+  background: var(--white, #FFF);
+  box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
   /* height: 129px;
   width: 263px; */
+}
+.div222-2 .image32-div{
+  margin-right: 10px;
+}
+.div222-2 .image32{
+  width: 50px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 50%;
+}
+.div222-2 .ongoing{
+  color: var(--text-2, #84829A);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 124.5%; /* 17.43px */
+letter-spacing: -0.49px;
+margin-bottom: 5px;
+}
+.div222-2 .trip-to-rome{
+  color: var(--black, #080809);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 124.5%; /* 22.41px */
+letter-spacing: -0.27px;
+margin-bottom: 5px;
+}
+.div222-2 .forty{
+  color: var(--black, #080809);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 124.5%;
+/* letter-spacing: -0.77px; */
+}
+.div222-2 .forty-percent{
+  color: #DF6951;
+}
+
+.div222-2 .div222-2-info{
+  
 }
 .rec-div .rec-17{
   width: 321px;
@@ -104,8 +160,87 @@ flex-shrink: 0;
 border-radius: 26px;
 /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 }
-.home-four2{
+.rec-info .mls-divs{
+  display: flex;
+}
+.rec-info .building-heart-div{
+  display: flex;
+}
+.rec-info .trip{
+  color: var(--black, #080809);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 124.5%; /* 22.41px */
+letter-spacing: 0.27px;
+margin: 10px 0;
+}
+.rec-info .june{
+  color: var(--text-2, #84829A);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 124.5%; /* 19.92px */
+letter-spacing: -0.08px;
+margin: 10px 0;
+}
+.rec-info .mls-divs{
+  display: flex;
+  margin-bottom: 8px;
+}
+.rec-info .mls-div{
+  background-image: url(../../assets/images/mls-ellipse.svg);
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.mls-div .mls{
+  margin-left: 10px;
+}
+.building-heart-div .heart{
+margin-left: 100px;
 
+width: 20px;
+height: 18.585px;
+flex-shrink: 0;
+}
+.building-heart-div .building{
+  width: 16px;
+height: 16px;
+flex-shrink: 0;
+
+margin-right: 13px;
+}
+.building-heart-div .building-heart-ptag{
+  color: var(--text-2, #84829A);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 124.5%; /* 19.92px */
+letter-spacing: -0.32px;
+}
+.div222 .airoplane{
+width: 652px;
+height: 355px;
+flex-shrink: 0;
+}
+
+.home-four2{
+  position: relative;
+  z-index: 0;
+  margin-left: 555px;
+margin-top: -75px;
+  
 }
 .home-four2 .crosses{
   display: flex;
