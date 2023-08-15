@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+.home-four{
+  margin-top:150px;
+  margin-left: 150px;
+  display: flex;
+  overflow: hidden;
+
+}
+.home-four11 .fast-easy{
+  color: #DF6951;
+/* text-align: center; */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.home-four11 .resort-booking{
+  color: #181E4B;
+font-family: Volkhov;
+font-size: 46px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+max-width: 450px;
+}
+.home-four11 .group{
+  display: flex;
+  margin-top: 15px;
+  max-width: 360px;
+}
+.group img{
+  width: 47px;
+  height: 48px;
+  flex-shrink: 0;
+  
+}
+.group .group-ptags{
+  margin-left: 20px;
+}
+.group .p1{
+  color: var(--textclr, #5E6282);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 124.5%; /* 19.92px */
+}
+.group .p2{
+  color: var(--textclr, #5E6282);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124.5%; /* 19.92px */
+}

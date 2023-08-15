@@ -6,29 +6,27 @@
   display: flex;
   flex-direction: column;
   padding-left: 189px;
-  padding-right: 347px;
+  padding-right: 288px;
   overflow: hidden;
+  /* margin-top: 30px; */
 }
 .home-three .home-three1{
   display: flex;
   padding-left: 10%;
-  border-color: #6246E5;
-  border-style: dashed;
-}
+  margin-top: 65px;
+  }
 .home-three1 .love-pics{
   /* display: flex; */
   display: inline-block;
   /* position: relative; */
   /* z-index: 5; */
-  border-color: black;
-  border-style: double;
   /* height: 480px; */
 }
-.love-pics .love2{
+.love2{
   position: relative;
   z-index: 1;
-  top: -10px;
-  left: 60px;
+  margin-top: 158px;
+  margin-left: -131px;
   width: 141.04px;
   height: 141.04px;
   flex-shrink: 0;
@@ -37,11 +35,12 @@
 /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 /* box-shadow: 0px 56.41608428955078px 87.75835418701172px 0px rgba(1, 22, 24, 0.24); */
 }
-.love-pics .love1{
+.love1{
   position: relative;
   z-index: 1;
-  top: -140px;
-  left: -150px;
+  margin-top: -55px;
+  margin-left: -160px;
+  left: 55px;
 
   width: 210.888px;
   height: 210.888px;
@@ -50,23 +49,24 @@
   border-radius: 230.888px;
 /* background: url(<path-to-image>), lightgray -220.589px -194.896px / 309.6% 206.642% no-repeat; */
 }
-.love-pics .love3{
+.love3{
   position: relative;
   z-index: 1;
-
+  margin-top: -45px;
+  margin-right: -235px;
   width: 174.177px;
-  height: 74.177px;
-  flex-shrink: 0;
+height: 174.177px;
+flex-shrink: 0;
 
   border-radius: 74.177px;
 /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
   /* box-shadow: 0px 56.41608428955078px 87.75835418701172px 0px rgba(255, 200, 118, 0.35); */
 }
 .love-pics .love4-div{
-  /* position: relative;
-  z-index: 0; */
+  position: relative;
+  z-index: 0;
   width: 393.564px;
-  height: 464.751px;
+  height: 534.751px;
   flex-shrink: 0;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
@@ -94,13 +94,57 @@ opacity: 0.1;
   
 } 
 .honeymoon-packages{
-  margin-top: 125px;
-  margin-left: 90px;
-  border-color: #6246E5;
-  border-style: double;
+  margin-top: 100px;
+  margin-left: 95px;
+
+}
+.honeymoon-packages .hp-p1{
+  color: #DF6951;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+.honeymoon-packages .hp-p2{
+  color: #181E4B;
+font-family: Volkhov;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 50.042px; /* 142.085% */
+}
+.honeymoon-packages .hp-p3{
+  color: var(--black, #000);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.honeymoon-packages button{
+  border-radius: 10px;
+background: #DF6951;
+box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+margin-top: 17px;
+height: 40px;
+width: 120px;
+border: none;
+
+color: var(--white, #FFF);
+font-family: Poppins;
+font-size: 13.96px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 .home-three2 .pluses{
   display: flex;
+  z-index: 0;
+  margin-left: 429px;
+  margin-top: -65px;
  
 }
 .pluses-batch p{
